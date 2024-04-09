@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <title>pineapplecat.dev status</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <div class="pageContainer">
+      <p><b>this is a status page. ill be honest i kind of wanted some simple one line html that turned green or red when a server was up or down but as it turns out that is difficult for someone with no experience. so i used <a href="https://github.com/statsig-io/statsigstatus">this </a>tool instead. with some modification, works like a damn charm. in the future i'd like it to be able to ping game servers to check if they are online, but since it cant ill do that later. for now it just queries the auxillary server, which responds with a file that just says "success" if its up. the outside world cannot see this file.</b></p>
+      <div class="headline">
+        <span> System Status </span>
+      </div>
+      <div id="reports" class="reportContainer"></div>
+      <div id="tooltip" class="tooltip" style="opacity: 0">
+        <div id="tooltipArrow" class="tooltipArrow"></div>
+        <div id="tooltipDateTime" class="tooltipDateTime"></div>
+        <div id="tooltipStatus" class="tooltipStatus"></div>
+        <hr />
+        <div id="tooltipDescription" class="tooltipDescription"></div>
+      </div>
+      <div id="templates" style="display: none">
+        <div
+          id="statusSquareTemplate"
+          class="statusSquare $color"
+          data-status="$color"
+        ></div>
+        <div id="statusLineTemplate" class="statusLine"></div>
+        <div
+          id="statusStreamContainerTemplate"
+          class="statusStreamContainer"
+        ></div>
+        <div id="statusContainerTemplate" class="statusContainer">
+          <div class="statusHeader">
+            <h6 class="statusTitle">$title&nbsp;</h6>
+            <div class="$color statusHeadline">$status</div>
+          </div>
+          <div class="statusSubtitle">
+            <div class="statusUptime">$upTime in the last 30 days</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    genAllReports();
+  </script>
+</html>

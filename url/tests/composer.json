@@ -1,0 +1,8 @@
+{
+    "require": {
+        "phpunit/phpunit": "*"
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<h1>how 2 install modpack</h1>
+		<p>hi i made a poorly formatted website to teach people how to install modpacks</p>
+		<h2>downloading</h2>
+		<img src=minecraft.png width=50%>
+		<p>first go to the stinky <a href=https://curseforge.com>curseforge website</a> and head to the minecraft section.</p>
+				
+<img src=search.png width=50%>
+		<p>put the modpack you want in the search bar</p>
+		<img src=curseforge.png width=50%>
+		<p>click the modpack to go to its site</p>
+		<img src=this.png>
+		<p>scroll down and click the file name down here since the website tries to hide the download button from you to force you to use their launcher (dont)</p>
+		<img src=download.png>
+		<p>click the download button.</p>
+		<p>good job! you have a modpack you want</p>
+		<h2>getting the Prism Launcher</h2>
+		<p>the Prism Launcher is a third party minecraft launcher that supports having multiple instances of minecraft with their own mods and stuff + it has a cat</p>
+		<img src=prism.png width=50%>
+		<p>go to the <a href=https://prismlauncher.org>prism launcher website</a> and click the big ol download button</p>
+		<img src=downloadit.png width=50%>
+		<p>the downloads website will probably have your operating system selected automatically but if not select your operating system. for <strike>laziness</strike> simplicity i'll only be going over the windows install</p>
+		<p>click the installer button!!!!</p>
+		<img src=installer.png>
+		<p>once it starts downloading (click keep if it gives you some dumb warning) wait for it to finish and then run it (you DO know how to do that right?)</p>
+		<p>follow all the installation instructions.</p>
+		<img src=theprism.png>
+		<p>once you've finished installing prism, run it and complete the quick setup. when you've done that you should see the prism launcher app. we're going to do some things to make it look way cooler first.</p>
+		<img src=cool.png>
+		<p>click the settings bar at the top and you should already be under launcher settings. click the user interface tab, go to theme and change all your settings to the dark mode settings because dark mode = cool. you can change the cat too, if you feel like it.</p>
+		<img src=cat.png>
+		<p>close the settings tab and click the cat to enable the cat. this is very important.</p>
+		<img src=nice.png>
+		<p>looking fresh, kid.</p>
+		<img src=accounts.png>
+		<p>click the account button in the corner and select manage accounts. this should take you to the accounts settings so you can put your creds in to play the game.</p>
+		<img src=add.png>
+		<p>click whichever of these your account uses and follow the steps. if you have trouble with this part.... idk dm me</p>
+		<h2>installing the modpack</h2>
+		<p>now that all your stuff is set up and looking snazzy its time to install the modpack. this part is ez</p>
+		<img src=modpack.png>
+		<p>drag the modpack .zip file into prism and push OK in the dialog that comes up.</p>
+		<p>it will start extracting the modpack and downloading the mods.</p>
+		<img src=blocked.png>
+		<p>this dialog will most likely come up. this is because curseforge is a shitty website that enables mod creators to disallow their mod from being downloaded by launchers other than their own because they suck FUCK YOU CURSEFORGE</p>
+		<p>click the "open missing" button at the bottom and it will start downloading the mod automatically. once its downloaded, if you havent changed your download folder settings for some weird reason it should detect it and you can continue the modpack install by pressing the OK button.</p>
+		<img src=launch.png>
+		<p>ta da! the modpack is installed. you can push the launch button on the right to start the modpack.</p>
+	</body>
+</html>
