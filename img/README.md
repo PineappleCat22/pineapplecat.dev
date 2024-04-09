@@ -1,3 +1,5 @@
+note from pineapplecat22: the code in this folder is not mine! it is modified for use on this domain.
+
 <p align="center">
   <a href="" rel="noopener">
     <img height=200px src="./css/imgs/logo/logo.svg" alt="PictShare logo">

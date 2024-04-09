@@ -1,3 +1,5 @@
+note from pineapplecat22: the code in this folder is not mine! it is modified to work on this domain.
+
 <h1 align="center">
   <a href="https://yourls.org">
     <img src="images/yourls-logo.svg" width=66% alt="YOURLS">
