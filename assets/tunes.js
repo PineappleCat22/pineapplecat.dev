@@ -24,7 +24,7 @@ const getTrack = async () => {
     document.getElementById("listening").innerHTML = `
     <div style="width:49%;  padding-right:1%;">
     <p id="trackStatus" style="font-size: 1vw;">${status}</p>
-    <img src="${json.track.image[2]['#text']}" style=width:100%;" padding-top:10px;">
+    <img src="${json.track.image[3]['#text']}" style=width:100%;" padding-top:10px;">
     </div>
     <div id="trackInfo" style="width:49%; padding-left:1%;">
     <h3 id="trackName" style="font-size: 1.2vw;">${json.track.name}</h3>

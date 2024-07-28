@@ -19,7 +19,7 @@
 */
 
 // The values in this section are REQUIRED for the widget to work! Keep them in quotes!
-const s_stylePath = 'comment-widget-dark.css';
+const s_stylePath = 'assets/comment-widget-dark.css';
 const s_formId = '1FAIpQLScOqDf0Mn9DGuc5CfbKzISqKocWrL_3h4oQi8ImMQB7OsQK3w';
 const s_nameId = '1237183625';
 const s_websiteId = '1100085668';

@@ -8,7 +8,7 @@
     <meta content="pineapple's cyberinsecure hub" property="og:title" />
     <meta content="information about an internet human, some fun doodads, and a cybersecurity newsfeed sort of thing" property="og:description" />
     <meta content="https://www.pineapplecat.dev/" property="og:url" />
-    <meta content="https://www.pineapplecat.dev/me.png" property="og:image" />
+    <meta content="https://www.pineapplecat.dev/assets/me.png" property="og:image" />
     <meta content="#6C0FFF" data-react-helmet="true" name="theme-color" />
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
@@ -33,7 +33,7 @@
     <h1 style="text-align:left; float:left;">hi</h1>
     <div class="content" style="float:right;">
         <p>this is me =====></p>
-        <img src="me.png" style="height:80px;">
+        <img src="assets/me.png" style="height:80px;">
     </div>
     <h1>🍍🐱</h1> <!-- this line has some WEIRD ASS PHYSICS but it works. no touch! -->
 </div>
@@ -52,14 +52,14 @@
             <p style="font-size:1vw">hey uhhh shouldnt there be something here?</p>
         </div>
         <h4>button if you like buttons</h4>
-        <a href="https://www.pineapplecat.dev"><img src="button.png"></a>
+        <a href="https://www.pineapplecat.dev"><img src="assets/button.png"></a>
         <br>
-        <textarea style="height:50px; resize:none;" readonly=""><a href="https://www.pineapplecat.dev"><img src="https://www.pineapplecat.dev/button.png"></a></textarea>
+        <textarea style="height:50px; resize:none;" readonly=""><a href="https://www.pineapplecat.dev"><img src="https://www.pineapplecat.dev/assets/button.png"></a></textarea>
         <p>if you couldnt tell i didnt know what to put on it</p>
         <h4>super cool comment section</h4>
         <div id="c_widget"></div>
-        <script src="comment-widget.js"></script>
-        <script src="tunes.js"></script>
+        <script src="assets/comment-widget.js"></script>
+        <script src="assets/tunes.js"></script>
     </div>
     <div class="main">
         <p>hi im waylon</p>
@@ -68,6 +68,10 @@
         <p>below are some of the projects i am or have worked on</p>
         <div class="projects">
             <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+            <div>
+                <h3>twitch</h3>
+                <p>idk i try to stream sometimes i just couldnt find somewhere else to embed this. eventually i want to do programming and working on some projects. for now vidya game</p>
+            </div>
             <div id="tplayer"></div>
             <script type="text/javascript">
                 var options = {
@@ -78,9 +82,12 @@
                 var player = new Twitch.Player("tplayer", options);
                 player.setVolume(0.01);
             </script>
+        </div>
+        <div class="projects">
+            <img src="assets/ai.png" class="pics">
             <div style="text-align:right; padding-right:20px; padding-left:20px;">
-                <h3>twitch</h3>
-                <p>idk i try to stream sometimes i just couldnt find somewhere else to embed this. eventually i want to do programming and working on some projects. for now vidya game</p>
+                <h3>Pineapple AI</h3>
+                <p>It's an ai.... thats me. Close enough anyway. I haven't trained it yet so it has some issues with its personality but to be honest for nothing but a cursory explanation of my personality it does okay. I promise I'll replace the photo with a better one soon.</p>
             </div>
         </div>
         <div class="projects">
@@ -88,49 +95,22 @@
                 <h3>server stuff</h3>
                 <p>over the years ive worked with a lot of server hardware which isnt as cool until you consider that i was doing so out of highschool so it was a pretty rare opportunity for me. I had a cool teacher and was able to pick up some Cisco Networking Academy certifications in IT and networking.</p>
             </div>
-            <img src="swerver.jpg" class="pics">
+            <img src="assets/swerver.jpg" class="pics">
         </div>
         <br>
         <div class="projects">
-            <img src="contraption.webp" class="pics">
+            <img src="assets/contraption.webp" class="pics">
             <div style="text-align:right; padding-right:20px;">
                 <h3>Frankenserver</h3>
                 <p>This amalgam of technology on top of being my main server (running plex, fail2ban, hosting my webserver, pihole, data storage, vpn server, temporary security camera, etc.) at one point also served to remotely boot up my main tower pc. It's got a relay HAT on it and is duct taped to a 5 port netgear switch and a 2tb usb hard drive that it can barely power. It would boot my pc by switching a relay on with some very simple python code. Nowadays the main pc is with me in college (I never reinstalled the power button).</p>
             </div>
         </div>
-        <div class="projects">
-            <div>
-                <h3>TODO: add auxillary server here</h3>
-            </div>
-        </div>
-        <div class="projects">
-            <div>
-                <h3>upcoming projects:</h3>
-                <p>FrankenNAS: a hacked together NAS to solve storage issues on the Frankenserver</p>
-                <p>various things involving nerf guns</p>
-                <p>uhhhhhh</p>
-                <!-- PROJECT AUTOCAT
-                DESCRIPTION: train an ai model based on my discord and other chat messages.
-                GOAL: create an ai model of myself that mirrors my personality kind of
-                EXPANSION: discord bot?
-                RELEVANT LINKS:
-                https://www.llamaindex.ai/open-source
-                https://mistral.ai/news/announcing-mistral-7b/
-                https://news.ycombinator.com/item?id=36832572
-                https://livechatai.com/blog/how-to-train-chatgpt-on-your-own-data
-                https://docs.llamaindex.ai/en/stable/getting_started/starter_example_local/
-                https://huggingface.co/BAAI/bge-small-en-v1.5
-                https://www.reddit.com/r/LocalLLaMA/comments/19dn8t7/human_behavior_simulation_how/
-                https://www.reddit.com/r/LocalLLaMA/comments/19a89o9/formulate_your_problems_as_text_completion/
-                https://huggingface.co/sophosympatheia/Aurora-Nights-103B-v1.0
-                -->
-            </div>
-        </div>
     </div>
     <div class="sidebar">
         <h3>Cybersecurity News</h3>
-        <h4>SITE DOWN FROM 4/19/2024 TO ...</h4>
-        <p>updates at <a href="https://www.pineapplecat.dev/updates">here.</a></p>
+        <h4>we're back</h4>
+        <p>oooookay lets see what i missed. crowdstrike, all major hacker forums fucking collapsed on themselves, and there was also of course all the political shit. HOLY FUCK. daily cybersec news will resume. i cant be bothered to recap all that shit</p>
+        <h4>SITE WAS DOWN FROM 4/19/2024 TO 7/28/2024</h4>
         <h4>April 18th, 2024</h4>
         <h4>Akira Ransomware group collects $42 mil</h4>
         <p>Akira Ransomware, a group that appeared last march, has been gaining notoriety targeting victims worldwide. They've thus far claimed over 250 victims and the FBI reports they've made $42 million in ransoms.</p>
