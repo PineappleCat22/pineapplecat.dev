@@ -23,7 +23,6 @@ marquee {
     background-color: #181c1c;
     color: #ffffff;
     text-align: center;
-    z-index: 1;
     border-style: dotted;
     border-width: 2px;
 }
@@ -79,7 +78,6 @@ marquee {
     margin-bottom: 10px;
 }
 .footer {
-
     position: sticky;
     font-family: MS Gothic;
     background-color: #111;
