@@ -32,7 +32,7 @@ marquee {
     color: #ffffff;
     text-align: center;
     width: 40vw;
-    height: 78vh;
+    height: 77vh;
     padding-top: 1vh;
     overflow-x: hidden;
 }
@@ -54,7 +54,7 @@ marquee {
     padding-right:20px;
 }
 .sidebar {
-    height: 90vh;
+    height: 78vh;
     width: 15vw;
     background-color: rgba(0, 0, 0,0.8);
     color: #ffffff;
@@ -78,7 +78,7 @@ marquee {
     margin-bottom: 10px;
 }
 .footer {
-    position: sticky;
+    position: relative;
     font-family: MS Gothic;
     background-color: #111;
     color: #ffffff;
