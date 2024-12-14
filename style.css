@@ -94,6 +94,8 @@ marquee {
     flex-flow: row;
     justify-content: center;
     font-size: 1vw;
+    justify-content: center;
+    align-items: center;
 }
 .footer > * {
     padding-left: 10px;
