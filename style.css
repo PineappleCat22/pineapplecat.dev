@@ -33,7 +33,6 @@ marquee {
     text-align: center;
     width: 40vw;
     height: 77vh;
-    padding-top: 1vh;
     overflow-x: hidden;
 }
 .main > p {
@@ -103,4 +102,23 @@ marquee {
 .tunes {
     display: flex;
     flex-flow: row;
+}
+
+.header2 {
+    margin: auto;
+    font-family: MS Gothic;
+    background-color: #181c1c;
+    color: #ffffff;
+    text-align: center;
+    border-style:solid;
+    border-top:none;
+    border-width: 2px;
+    height:auto;
+}
+.header2 > p {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    text-align:right;
 }
