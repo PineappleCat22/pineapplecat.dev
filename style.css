@@ -114,6 +114,9 @@ marquee {
     border-top:none;
     border-width: 2px;
     height:auto;
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
 }
 .header2 > p {
     margin: 0;
